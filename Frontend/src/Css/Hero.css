@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.hero {
+  background: linear-gradient(to right, rgb(5 0 8), #213f95);
+  height: 102vh;
+  overflow: hidden;
+}
+.hero-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 200px;
+  /* background: linear-gradient(to right, rgb(5 0 8), #00103b); */
+  /* box-shadow: 20px -2px 20px #323b5d; */
+}
+.hero-header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 17px;
+}
+
+.hero-header a {
+  text-decoration: none;
+  color: #c2bfbf;
+  opacity: 0.8;
+  font-weight: 100;
+  transition: all 0.3s ease 0s;
+  /* font-style: italic; */
+}
+
+.hero-header a:hover {
+  color: orangered;
+}
+.hero-nav {
+  margin-left: 22vw;
+  margin-top: 4vh;
+  padding-bottom: 2vh;
+}
+.logo {
+  width: 68px;
+  height: 53px;
+  /* margin-right: 10px; */
+  margin-left: 150px;
+  position: absolute;
+  left: 2vw;
+  top: 0vh;
+}
+.heroh1 {
+  color: #e5e9eade;
+  position: absolute;
+  font-size: 239px;
+  top: 10.3vh;
+  left: 22vw;
+  letter-spacing: 69px;
+  z-index: 10;
+}
+.isro {
+  color: orangered;
+  font-style: italic;
+  font-weight: 300;
+  position: absolute;
+  top: 44vh;
+  left: 23vw;
+  letter-spacing: 12px;
+}
+.heroimg {
+  position: absolute;
+  top: 15vh;
+  transform: scale(1);
+  left: 36%;
+  z-index: 1000;
+}
+.policy {
+  color: white;
+  position: absolute;
+  top: 86.5%;
+  left: 10%;
+  font-size: 20px;
+  letter-spacing: 0.07375rem;
+  line-height: 1.2rem;
+  font-family: "lato";
+  opacity: 0.7;
+  z-index: 2000;
+}
+.policy2 {
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  font-size: 20px;
+  letter-spacing: 0.07375rem;
+  line-height: 1.2rem;
+  font-family: "lato";
+  opacity: 0.7;
+  z-index: 2000;
+}
+.policy3 {
+  color: white;
+  position: absolute;
+  top: 93.3%;
+  left: 10%;
+  font-size: 20px;
+  letter-spacing: 0.07375rem;
+  line-height: 1.2rem;
+  font-family: "lato";
+  opacity: 0.7;
+  z-index: 2000;
+}
+.btn {
+  /* background-color: #1a2f71; */
+  padding: 8px 15px;
+  border: 2px solid #1a2f71;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  top: 90%;
+  left: 88%;
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #1e388674;
+  transform: scale(1.1);
+}
+.planet {
+  position: absolute;
+  top: 34%;
+  left: -8%;
+  width: 21vw;
+}
+.planet2 {
+  position: absolute;
+  top: 66%;
+  left: 76%;
+  width: 14vw;
+  opacity: 0.4;
+}
+.planet3 {
+  position: absolute;
+  top: 55%;
+  left: 63%;
+  width: 11vw;
+  opacity: 0.4;
+  transform: rotate(22deg);
+}
+.planet4 {
+  position: absolute;
+  top: 59%;
+  left: 20%;
+  width: 15vw;
+  transform: rotate(5deg);
+  opacity: 0.4;
+}
+.planet5 {
+  position: absolute;
+  top: 32%;
+  left: 79%;
+  width: 19vw;
+  transform: rotate(-3deg);
+  opacity: 0.4;
+}
+.login {
+  position: absolute;
+  top: 1.5vh;
+  left: 84vw;
+}
+.register {
+  position: absolute;
+  top: 1.5vh;
+  left: 90vw;
+}
+.paraa {
+  color: white;
+  position: absolute;
+  top: 62.3%;
+  left: 60%;
+  font-size: 20px;
+  letter-spacing: 0.07375rem;
+  line-height: 1.2rem;
+  font-family: "lato";
+  opacity: 0.7;
+  z-index: 2000;
+}

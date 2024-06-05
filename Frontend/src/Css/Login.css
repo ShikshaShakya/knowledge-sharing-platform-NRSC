@@ -1,0 +1,236 @@
+.Inclusive-login-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, rgb(2 1 37), #000514);
+}
+
+.login-big-wrapper {
+  width: 90%;
+  margin-left: 3vw;
+  max-width: 1100px;
+  height: 60%;
+  margin-top: 3vh;
+  border-radius: 9px;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* box-shadow: 8px 14px 50px #101c3d; */
+}
+
+.section-wrapperr {
+  width: 48%;
+  padding: 2.6rem 4rem;
+  background-color: #e9f4f6;
+  border-radius: 60px 0px 0px 60px;
+}
+
+.login-banner-section {
+  background: linear-gradient(to right, rgb(5 0 8), #00103b);
+  border-radius: 9px 0 0 9px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 860px) {
+  .login-banner-section {
+    display: none;
+  }
+  .section-wrapperr {
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.7rem 10vw;
+  }
+  .login-big-wrapper {
+    width: 80%;
+    padding: 2.2rem 0;
+  }
+}
+
+.top-suggest_register {
+  font-size: 0.8rem;
+}
+
+.top-suggest_register span {
+  color: #111b45;
+  font-size: 0.7rem;
+  margin-right: 8px;
+  position: absolute;
+  top: 54vh;
+  left: 9.3vw;
+}
+
+.top-suggest_register a {
+  font-size: 0.7rem;
+  color: #111b45;
+  font-size: 0.7rem;
+  text-decoration: underline;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: 53.9vh;
+  left: 20.1vw;
+}
+
+.top-login-explain {
+  margin-top: 2vh;
+}
+
+.top-login-explain h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-top: -4vh;
+  color: #111b45;
+  margin-left: 4.3vw;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.top-login-explain p {
+  color: #afafaf;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+}
+
+.login-big-wrapper form {
+  position: relative;
+  padding-top: 1.3rem;
+}
+
+.login-big-wrapper form label {
+  position: absolute;
+  top: -10px;
+  left: 14px;
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+  background-color: #304c6f;
+  border-radius: 4px;
+  color: #a8a6a6;
+  padding: 0 6px;
+}
+
+.login-big-wrapper form .input-wrapper {
+  position: relative;
+  margin-left: 1vw;
+}
+
+.login-big-wrapper form input {
+  outline: 0;
+  width: 80%;
+  margin-left: 2vw;
+  background-color: #98bfe83d;
+  margin-bottom: 1rem;
+  padding: 3px;
+  padding-top: 4px;
+  border: #173657 solid 1px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  color: #7a7979;
+}
+
+.login-big-wrapper form input:focus-within {
+  border: #00103b solid 1px;
+}
+
+.login-big-wrapper form input:focus + label {
+  color: #00103b !important;
+}
+
+.login-screen__forgotpassword {
+  float: right;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  margin-top: -13px;
+  color: #00103b;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 23vh;
+  left: 13vw;
+}
+
+.login-big-wrapper form button {
+  cursor: pointer;
+  outline: 0;
+  background-color: #0e0f2e;
+  width: 76%;
+  text-align: center;
+  color: #8e97a8;
+  padding: 3px;
+  border-radius: 4px;
+  margin-top: 56px;
+  margin-left: 3vw;
+  letter-spacing: 0.4px;
+}
+
+.error_message {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  margin-top: -1.2rem;
+  background-color: rgba(245, 72, 72, 0.9);
+  color: white;
+  padding: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.left-login {
+  width: 50vw;
+  height: 100vh;
+  background-color: #e9f4f6;
+  position: absolute;
+  top: 0vh;
+  left: 50vw;
+}
+.right-login {
+  width: 36%;
+  height: 60.2vh;
+  border-radius: 0px 60px 60px 0px;
+  background-color: #d1e0f5;
+  position: absolute;
+  top: 21.4vh;
+  left: 50vw;
+  z-index: 10000;
+}
+.login-img {
+  position: absolute;
+  top: 14vh;
+  left: -4vw;
+  width: 45vw;
+  height: auto;
+}
+.read-more-h2-login {
+  position: absolute;
+  top: 3vh;
+  left: 20vw;
+  color: #070721;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.read-more-btn-login {
+  cursor: pointer;
+  border: 2px solid #090b46;
+  outline: 0;
+  background-color: transparent;
+  width: 22%;
+  text-align: center;
+  color: #090b46;
+  padding: 0px;
+  font-size: 16px;
+  border-radius: 4px;
+  letter-spacing: 0.4px;
+  position: absolute;
+  top: 10vh;
+  left: 25vw;
+  text-transform: uppercase;
+}

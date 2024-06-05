@@ -1,0 +1,22 @@
+.footer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+   
+}
+
+.copyright {
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: #030319;
+}
+
+.copyright .copyright-blog {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
