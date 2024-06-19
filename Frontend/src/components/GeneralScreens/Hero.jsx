@@ -20,11 +20,12 @@ const Hero = () => {
               <NavLink to="/about">About Us</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Blogs</NavLink>
+              <NavLink to="/blog">Content</NavLink>
             </li>
             <li>
               <NavLink to="/">Contact Us</NavLink>
             </li>
+            {/*  */}
             {/* <li>
               <a href="#">Applications</a>
             </li>
@@ -41,7 +42,8 @@ const Hero = () => {
         </nav>
       </header>
       <h1 class="heroh1">NRSC</h1>
-      <h1 class="isro">BLOG</h1>
+      <h6 class="isro">Knowledge Sharing</h6>
+      <h6 class="isro2">Platform</h6>
       <img src={img1} alt="" className="heroimg" />
       <p class="policy">To excel in promoting enhanced utilization of remote</p>
       <p class="policy2">
@@ -67,14 +69,9 @@ const Hero = () => {
         Register
       </button>
       <img src={planet} alt="" className="planet" />
-      {/* <img src={planet2} className="planet2" alt="" />
-      <img src={planet3} className="planet3" alt="" />
-      <img src={planet4} className="planet4" alt="" />
-      <img src={planet5} className="planet5" alt="" /> */}
       <p className="paraa">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloribus
-        odit molestiae dolorem incidunt, tempore sequi similique quae aliquam
-        magnam!
+        National Remote Sensing Centre (NRSC) is one of the primary centres of
+        Indian Space Research Organisation (ISRO), Department of Space (DOS).
       </p>
     </div>
   );

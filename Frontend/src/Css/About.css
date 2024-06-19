@@ -1,88 +1,76 @@
 .about-section {
-    background-color: #020124;
-    padding: 2%;
-    height: 86vh;
-  }
-  
-   
-   
-   
-    
-  .aboutimg{
-position: absolute;
-top: -40px;
-left: -40px;
-border-radius: 15px;
-width: 100%;
-height: 100%;
-  }
-  .backdiv{
-    width: 25%;
-    height: 60vh;
-    background-color: rgba(0, 0, 0, 0);
-    border: 20px solid #70a1c0;
-   border-radius: 15px;
-   position: relative;
-   margin-top: 5%;
-   margin-left: 15%;
+  background-color: #020124;
+  padding: 2%;
+  height: 86vh;
+}
 
-  }
+.aboutimg {
+  position: absolute;
+  top: 28px;
+  left: -8px;
+  border-radius: 15px;
+  width: 106%;
+  height: 78%;
+}
+.backdiv {
+  width: 25%;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0);
+  border: 20px solid #70a1c0;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 15%;
+}
 
-  .inner{
-    display: flex;
-    flex-direction: row;
-    gap: 20%;
-  }
-  
-  .h1{
-    color: #899fb1;
-    font-size: xx-large;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .para{
-    font-size: small;
-    position: absolute;
-    top: 35vh;
-    left:45vw;
-    color: #6d8192de;
-    margin-right: 12vw;
+.inner {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
 
-    
-  }
-  .aboutcontent{
-    display: flex;
-flex-direction: column;
-margin-top: 5%;
-margin-left: -14.6vw;
+.h1 {
+  color: #899fb1;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
 
-
-  }
-  .btnn{
-    background-color: #6f9fbe;
-    padding: 8px 39px;
-    /* border: 2px solid #bbc9f5; */
-    border-radius: 7px;
-    text-decoration: none;
-    color: #050440;
-    font-weight: 400;
-    font-size: 16px;
-    transition: 0.5s ease;
-    cursor: pointer;
-    height: min-content;
-  }
-  .btnn:hover{
-
-    background-color: white;
-    border: 2px solid #1a2f71;
-    color: #1a2f71;
-
-  }
-  .buttbox{
-    display: flex;
-    gap: 30px;
-    position: absolute;
-    bottom: 18%;
-    right: 36.5%;
-  
-  }
+.para {
+  font-size: small;
+  position: absolute;
+  top: 35vh;
+  left: 45vw;
+  color: #6d8192de;
+  margin-right: 12vw;
+}
+.aboutcontent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: -14.6vw;
+}
+.btnn {
+  background-color: #6f9fbe;
+  padding: 8px 39px;
+  /* border: 2px solid #bbc9f5; */
+  border-radius: 7px;
+  text-decoration: none;
+  color: #050440;
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  height: min-content;
+}
+.btnn:hover {
+  background-color: white;
+  border: 2px solid #1a2f71;
+  color: #1a2f71;
+}
+.buttbox {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  bottom: 18%;
+  right: 36.5%;
+}
