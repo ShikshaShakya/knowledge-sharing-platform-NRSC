@@ -72,5 +72,3 @@ npm start
 ![ss8](https://github.com/ShikshaShakya/knowledge-sharing-platform-NRSC/blob/main/screenshots/readingList.PNG)
 
 
-On Wed, 19 Jun 2024 at 23:55, shiksha shakya <shikshashakya220@gmail.com> wrote:
-https://github.com/ShikshaShakya/knowledge-sharing-platform-NRSC/tree/main/screenshots
