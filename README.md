@@ -46,7 +46,7 @@ cd Backend
 npm install
 ```
 
-### Run the Server
+#### Run the Server
 
 ```bash
 npm start
